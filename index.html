@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RHCSA Master — Pass in 2 Weeks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700;800&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<button id="hamburger" onclick="toggleSidebar()">☰</button>
+
+<nav id="sidebar">
+  <div id="sidebar-logo">
+    <div class="brand">RHCSA<span style="color:var(--text)">.</span>MASTER</div>
+    <div class="tagline">EX200 — Red Hat Enterprise Linux 9</div>
+  </div>
+  <div class="nav-section">
+    <div class="nav-section-title">Start Here</div>
+    <div class="nav-item active" data-page="home"><span class="icon">🏠</span> Dashboard</div>
+    <div class="nav-item" data-page="plan"><span class="icon">📅</span> 2-Week Plan</div>
+    <div class="nav-item" data-page="definitions"><span class="icon">📖</span> Key Definitions</div>
+  </div>
+  <div class="nav-section">
+    <div class="nav-section-title">Core Domains</div>
+    <div class="nav-item" data-page="essentials"><span class="icon">⚙️</span> Essential Tools</div>
+    <div class="nav-item" data-page="users"><span class="icon">👤</span> Users &amp; Groups</div>
+    <div class="nav-item" data-page="permissions"><span class="icon">🔐</span> Permissions &amp; ACL</div>
+    <div class="nav-item" data-page="storage"><span class="icon">💾</span> Storage &amp; LVM</div>
+    <div class="nav-item" data-page="processes"><span class="icon">⚡</span> Processes &amp; Jobs</div>
+    <div class="nav-item" data-page="networking"><span class="icon">🌐</span> Networking</div>
+    <div class="nav-item" data-page="services"><span class="icon">🔧</span> Services &amp; systemd</div>
+    <div class="nav-item" data-page="software"><span class="icon">📦</span> Software Mgmt</div>
+    <div class="nav-item" data-page="security"><span class="icon">🛡️</span> SELinux &amp; Firewall</div>
+    <div class="nav-item" data-page="scripting"><span class="icon">📜</span> Bash Scripting</div>
+    <div class="nav-item" data-page="containers"><span class="icon">🐳</span> Containers (Podman)</div>
+    <div class="nav-item" data-page="boot"><span class="icon">🚀</span> Boot &amp; Recovery</div>
+  </div>
+  <div class="nav-section">
+    <div class="nav-section-title">Practice</div>
+    <div class="nav-item" data-page="labs"><span class="icon">🔬</span> Hands-on Labs</div>
+    <div class="nav-item" data-page="tp"><span class="icon">🖥️</span> TP Zone (VM Exercises)</div>
+    <div class="nav-item" data-page="quiz"><span class="icon">🧠</span> Knowledge Quiz</div>
+    <div class="nav-item" data-page="exam"><span class="icon">⏱️</span> Mock Exam</div>
+    <div class="nav-item" data-page="cheatsheet"><span class="icon">📋</span> Cheat Sheet</div>
+  </div>
+  <div class="nav-footer">
+    <div class="nav-author">
+      <div class="nav-author-name">Mohamed TAIEB</div>
+      <div class="nav-author-email">
+        <a href="mailto:mohamed.taieb.gl@gmail.com">mohamed.taieb.gl@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+  <div id="page-content"></div>
+</main>
+
+<!-- Data files -->
+<script src="js/data.js"></script>
+<!-- App files -->
+<script src="js/pages-core.js"></script>
+<script src="js/pages-domains.js"></script>
+<script src="js/pages-practice.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
