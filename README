@@ -11,17 +11,17 @@ Built with pure HTML, CSS, and JavaScript — no framework, no backend, no insta
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  RHCSA.MASTER          [Dashboard] [Plan] [Labs] [Exam]     │
-│  ─────────────                                               │
-│  🏠 Dashboard     │   Master Linux.                          │
-│  📅 2-Week Plan   │   Pass in 2 Weeks.                       │
-│  📖 Definitions   │                                          │
+│  ─────────────                                              │
+│   Dashboard     │   Master Linux.                           │
+│   2-Week Plan   │   Pass in 2 Weeks .                       │
+│   Definitions   │                                           │
 │  ─────────────    │   12 Domains · 14 Labs · 50 Quiz Q's    │
-│  ⚙️  Essentials   │   10 VM Exercises · Mock Exam           │
-│  👤 Users         │                                          │
-│  🔐 Permissions   │   [Start Labs] [Quiz] [Mock Exam]        │
-│  💾 Storage/LVM   │                                          │
-│  🛡️  SELinux      │   Mohamed TAIEB                          │
-│  🚀 Boot/Recovery │   mohamed.taieb.gl@gmail.com             │
+│    Essentials   │   10 VM Exercises · Mock Exam             │
+│   Users         │                                           │
+│   Permissions   │   [Start Labs] [Quiz] [Mock Exam]         │
+│   Storage/LVM   │                                           │
+│    SELinux      │   Mohamed TAIEB                           │
+│   Boot/Recovery │   mohamed.taieb.gl@gmail.com              │
 └─────────────────────────────────────────────────────────────┘
 ```
 
